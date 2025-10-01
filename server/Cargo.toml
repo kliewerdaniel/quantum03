@@ -12,7 +12,3 @@ env_logger = "0.10"
 diesel = { version = "2.1", features = ["postgres", "r2d2"] }
 r2d2 = "0.8"
 redis = "0.25"
-
-[lib]
-name = "server"
-crate-type = ["rlib"]
